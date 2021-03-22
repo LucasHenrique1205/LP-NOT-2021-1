@@ -21,7 +21,44 @@
             os dois valores informados (inclusive).            
         */
 
-    </script>
+
+            let num1
+            let num2
+            
+
+        do {
+            num1 = parseInt(prompt('Informe um número inteiro:'))
+        } while(isNaN(num1))
+       
+
+        do {
+            num2 = parseInt(prompt('Informe outro número inteiro diferente do primeiro:'))
+        } while(isNaN(num2) || (num2) === (num1))
+
+let maior
+if (num1 > num2) {
+    maior = num1}
+else {
+    maior = num2
+}
+
+let menor
+if (num1 > num2) {
+    menor = num2}
+else {
+    menor = num1
+}
+    
+    let soma = 0
+    for(let i = menor; i <= maior; i++) {
+    
+    soma = soma + i}
+        
+document.write(soma)
+
+
+
+              </script>
 </head>
 <body>
     
